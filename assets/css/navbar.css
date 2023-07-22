@@ -1,0 +1,14 @@
+/* Estilo para o link do navbar ativo */
+.navbar-dark .nav-link.active {
+    background-color: #343a40;
+}
+
+/* Estilo para o link do navbar quando passar o mouse por cima */
+.navbar-dark .nav-link:hover {
+    background-color: #606060;
+}
+
+/* Estilo para o botão de hamburguer do navbar quando expandido */
+.navbar-dark .navbar-toggler {
+    border-color: #fff;
+}
