@@ -24,7 +24,7 @@ const btnGoogle = document.querySelector('.btn-google');
 
 // Função para autenticação com o GitHub
 btnGithub.addEventListener('click', () => {
-    var provider = new firebase.auth.GithubAuthProvider();
+    let provider = new firebase.auth.GithubAuthProvider();
 
     // Fazer login com o GitHub
     firebase.auth().signInWithPopup(provider)
@@ -37,6 +37,7 @@ btnGithub.addEventListener('click', () => {
 
         // The signed-in user info.
         var user = result.user;
+        console.log(credential, user);
         // IdP data available in result.additionalUserInfo.profile.
             // ...
     }).catch((error) => {
@@ -53,7 +54,7 @@ btnGithub.addEventListener('click', () => {
 
 // Função para autenticação com o Google
 btnGoogle.addEventListener('click', () => {
-    var provider = new firebase.auth.GoogleAuthProvider();
+    let provider = new firebase.auth.GoogleAuthProvider();
 
     // Fazer login com o Google
     firebase.auth().signInWithPopup(provider)
@@ -65,6 +66,7 @@ btnGoogle.addEventListener('click', () => {
         var token = credential.accessToken;
         // The signed-in user info.
         var user = result.user;
+        console.log(credential, user);
         // IdP data available in result.additionalUserInfo.profile.
             // ...
     }).catch((error) => {

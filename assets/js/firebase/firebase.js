@@ -4,6 +4,7 @@
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 // Configuração do Firebase
 const firebaseConfig = {
     apiKey: "SUA_API_KEY",
@@ -13,7 +14,6 @@ const firebaseConfig = {
     messagingSenderId: "SEU_MESSAGING_SENDER_ID",
     appId: "SEU_APP_ID"
 };
-
 // Inicialização do Firebase
 const app = firebase.initializeApp(firebaseConfig);
 firebase.analytics();
@@ -27,7 +27,7 @@ function logout() {
     auth.signOut()
         .then(function() {
             // Logout bem-sucedido
-            //window.location.href = '<?php echo base_url(); ?>';
+            window.location.href = 'login';
         })
         .catch(function(error) {
             // Tratar erros de logout

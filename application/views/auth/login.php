@@ -14,6 +14,9 @@
                                 <label for="password" class="form-label">Senha</label>
                                 <input type="password" class="form-control" id="password" name="password" required>
                             </div>
+                            <div class="mb-3">
+                                <small>Não tem uma conta? <a href="<?php echo base_url('register'); ?>">Crie uma aqui</a></small>
+                            </div>
                             <button type="submit" class="btn btn-primary btn-block">Login</button>
                         </form>
                         <div class="text-center mt-3">

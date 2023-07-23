@@ -27,7 +27,7 @@
                         <a class="nav-link" href="<?php echo base_url('register'); ?>">Cadastro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('logout'); ?>">Logout</a>
+                        <a class="nav-link" href="javascript:;" onclick="logout()">Logout</a>
                     </li>
                 </ul>
             </div>

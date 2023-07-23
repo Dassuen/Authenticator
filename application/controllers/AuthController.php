@@ -6,12 +6,14 @@ class AuthController extends CI_Controller {
         parent::__construct();
         $this->load->library('session');
     }
-
     public function index() {
+        redirect("login");
+    }
+    public function login() {
         $this->load->view('templates/header');
         $this->load->view('auth/login');
         $this->load->view('templates/footer');
-        
+
     }
 
     public function register() {
