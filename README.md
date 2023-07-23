@@ -40,5 +40,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 
 ## Autor
 
-Seu Nome
-- GitHub: [@seu-github-username](https://github.com/seu-github-username)
+Dassuen Cabral
+- GitHub: [@Dassuen](https://github.com/Dassuen/)
