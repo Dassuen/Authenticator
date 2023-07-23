@@ -1,5 +1,5 @@
 
-# Autenticator
+# Authenticator
 
 Autenticador simples com firebase.
 
